@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Penawaran Produk untuk Kantin Kejujuran | SMAN 4 Malang</title>
+  <meta name="description" content="Hasil proyek kokurikuler Bahasa Indonesia kelas X-LTD SMAN 4 Malang: surat penawaran produk dan lampiran produk untuk Kantin Kejujuran.">
+  <meta name="theme-color" content="#16311f">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#beranda">Lewati ke konten utama</a>
+
+  <!-- ================= NAVIGASI ================= -->
+  <header class="site-header" id="header">
+    <div class="wrap header-row">
+      <a class="brand" href="#beranda" aria-label="Kembali ke beranda">
+        <span class="brand-logos">
+          <img src="assets/logo/logo-sman4.png" alt="Logo SMAN 4 Malang" width="50" height="50">
+          <img src="assets/logo/logo-xltd.png" alt="Logo kelas X-LTD" width="50" height="50">
+        </span>
+        <span class="brand-text">
+          <strong>SMAN 4 Malang</strong>
+          <small>Kokurikuler Bahasa Indonesia</small>
+        </span>
+      </a>
+    </div>
+    <div class="kop-rule" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <!-- ================= BERANDA ================= -->
+    <section class="hero" id="beranda" aria-labelledby="judul-utama">
+      <video class="hero-video" id="heroVideo" muted playsinline preload="auto" aria-hidden="true" tabindex="-1"></video>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h1 id="judul-utama" aria-label="Penawaran Produk untuk Kantin Kejujuran">
+            <span class="ghost" aria-hidden="true">Penawaran Produk untuk Kantin Kejujuran</span>
+            <span class="typed" id="typed" aria-hidden="true">Penawaran Produk untuk Kantin Kejujuran</span>
+          </h1>
+          <p class="hero-sub">Hasil Proyek Kokurikuler Bahasa Indonesia Kelas X-LTD SMAN 4 Malang</p>
+          <p class="hero-desc">
+            Situs ini menyimpan surat penawaran produk beserta lampirannya, yang kami susun
+            untuk Kantin Kejujuran sekolah. Guru dan pengelola kantin dapat membaca,
+            melihat, dan mengunduh dokumennya di sini.
+          </p>
+
+          <div class="pills" id="pills">
+            <a class="pill pill-white" href="#surat">Lihat Surat Penawaran</a>
+            <a class="pill pill-white" href="#lampiran">Jelajahi Lampiran Produk</a>
+            <a class="pill pill-white" href="#panduan">Baca panduan</a>
+            <a class="pill pill-white" href="#identitas">Kenal kelompok kami</a>
+            <button class="pill pill-line" id="copyContact" type="button" data-copy="@xltd.familia" aria-label="Salin kontak Instagram @xltd.familia">
+              <span>Kontak: <u>@xltd.familia</u></span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="3.8" y="3.8" width="6.7" height="6.7" rx="1"/><path d="M8.2 3.8V2.3a.8.8 0 0 0-.8-.8H2.3a.8.8 0 0 0-.8.8v5.1a.8.8 0 0 0 .8.8h1.5"/></svg>
+            </button>
+          </div>
+
+          <dl class="hero-id">
+            <div><dt>Sekolah</dt><dd data-bind="sekolah">SMAN 4 Malang</dd></div>
+            <div><dt>Kelas</dt><dd data-bind="kelas">X-LTD</dd></div>
+            <div><dt>Kelompok</dt><dd id="heroKelompok">-</dd></div>
+          </dl>
+        </div>
+
+        <!-- Ilustrasi: surat dan lampiran yang dijepit jadi satu berkas -->
+        <div class="sheets" aria-hidden="true">
+          <div class="sheet sheet-back">
+            <span class="sheet-tab">Lampiran</span>
+            <div class="grid-lines"></div>
+          </div>
+          <div class="sheet sheet-front">
+            <span class="sheet-tab">Surat</span>
+            <div class="letter-head"><i></i><i></i></div>
+            <div class="letter-body">
+              <i style="--w:46%"></i>
+              <i style="--w:30%"></i>
+              <i style="--w:100%" class="gap"></i>
+              <i style="--w:100%"></i>
+              <i style="--w:94%"></i>
+              <i style="--w:100%"></i>
+              <i style="--w:62%"></i>
+              <i style="--w:100%" class="gap"></i>
+              <i style="--w:100%"></i>
+              <i style="--w:88%"></i>
+              <i style="--w:40%"></i>
+            </div>
+            <div class="clip"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SURAT PENAWARAN ================= -->
+    <section class="section section-paper" id="surat" aria-labelledby="h-surat">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="h-surat">Surat Penawaran</h2>
+          <p>Dokumen resmi yang ditujukan kepada Kantin Kejujuran. Isi, nomor, tanggal, dan tata letaknya sama dengan berkas aslinya.</p>
+        </header>
+
+        <div class="doc-actions">
+          <a class="btn btn-primary" id="btnLihatSurat" href="#" target="_blank" rel="noopener">Lihat Dokumen</a>
+          <a class="btn btn-ghost" id="btnUnduhSurat" href="#" download>Unduh Surat Penawaran</a>
+        </div>
+
+        <div class="viewer" id="viewerSurat">
+          <div class="viewer-bar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <em id="viewerSuratName">surat-penawaran.pdf</em>
+          </div>
+          <div class="viewer-stage" id="stageSurat"></div>
+        </div>
+        <p class="hint" id="hintSurat"></p>
+      </div>
+    </section>
+
+    <!-- ================= LAMPIRAN PRODUK ================= -->
+    <section class="section section-cream" id="lampiran" aria-labelledby="h-lampiran">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="h-lampiran">Lampiran Produk</h2>
+          <p>Daftar produk yang kami tawarkan kepada Kantin Kejujuran, sesuai lampiran pada surat penawaran. Bagian ini hanya untuk dibaca, bukan tempat memesan.</p>
+        </header>
+
+        <div class="doc-actions">
+          <a class="btn btn-primary" id="btnLihatLampiran" href="#" target="_blank" rel="noopener">Lihat Lampiran (PDF)</a>
+          <a class="btn btn-ghost" id="btnUnduhLampiran" href="#" download>Unduh Lampiran (PDF)</a>
+        </div>
+
+        <div class="notice" id="noticeContoh" hidden>
+          <strong>Data contoh.</strong>
+          Kartu bertanda “Contoh” hanyalah penanda sementara. Ganti dengan data asli di <code>data/data.js</code> dan foto di <code>assets/produk/</code>.
+        </div>
+
+        <ol class="products" id="productGrid"></ol>
+      </div>
+    </section>
+
+    <!-- ================= PANDUAN ================= -->
+    <section class="section section-paper" id="panduan" aria-labelledby="h-panduan">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="h-panduan">Panduan</h2>
+          <p>Tarik kepala resleting hitam ke bawah untuk membaca materi, atau ketuk sekali untuk membuka seluruhnya.</p>
+        </header>
+
+        <div class="jackets">
+          <div class="jacket-container" id="jacket1">
+            <div class="pull-hint" aria-hidden="true">Tarik atau ketuk ↓</div>
+            <div class="inner-content">
+              <h3>1. Pengertian Surat Penawaran di Kantin Kejujuran</h3>
+              <p>Dalam kegiatan kokurikuler, surat penawaran Kantin Kejujuran adalah surat resmi yang dibuat oleh tim pengelola kantin (biasanya siswa atau kelompok belajar) yang ditujukan kepada calon pemasok (supplier), mitra bisnis, atau pihak sekolah.</p>
+              <p>Surat ini berisi penawaran kerja sama untuk menyediakan barang dagangan (seperti camilan, minuman, atau alat tulis) atau penawaran produk kantin kepada konsumen dalam acara tertentu dengan sistem pembayaran berbasis kejujuran.</p>
+            </div>
+            <div class="jacket-flap left" aria-hidden="true"></div>
+            <div class="jacket-flap right" aria-hidden="true"></div>
+            <div class="zipper-track" aria-hidden="true"></div>
+            <div class="zipper-puller" role="slider" tabindex="0" aria-label="Tarik resleting untuk membuka materi 1" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="zipper-handle"></div></div>
+          </div>
+          <div class="jacket-container" id="jacket2">
+            <div class="pull-hint" aria-hidden="true">Tarik atau ketuk ↓</div>
+            <div class="inner-content">
+              <h3>2. Fungsi Surat Penawaran</h3>
+              <p>Surat penawaran memiliki peran krusial dalam keberlangsungan Kantin Kejujuran, antara lain:</p>
+              <ul>
+                <li><strong>Membuka Peluang Kerja Sama:</strong> Mengajak produsen atau agen makanan untuk menitipkan barang dagangannya (konsinyasi) di Kantin Kejujuran.</li>
+                <li><strong>Menjelaskan Skema Bisnis:</strong> Memberikan informasi kepada mitra bahwa produk mereka akan dijual dengan sistem "ambil sendiri, bayar sendiri, dan ambil kembalian sendiri".</li>
+                <li><strong>Media Pemasaran Resmi:</strong> Menjadi bukti profesionalisme siswa dalam mengelola kegiatan ekonomi di sekolah.</li>
+                <li><strong>Dasar Kesepakatan Harga:</strong> Menyepakati harga beli dari pemasok dan harga jual ke konsumen agar pembagian keuntungan (profit sharing) menjadi jelas sejak awal.</li>
+              </ul>
+            </div>
+            <div class="jacket-flap left" aria-hidden="true"></div>
+            <div class="jacket-flap right" aria-hidden="true"></div>
+            <div class="zipper-track" aria-hidden="true"></div>
+            <div class="zipper-puller" role="slider" tabindex="0" aria-label="Tarik resleting untuk membuka materi 2" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="zipper-handle"></div></div>
+          </div>
+          <div class="jacket-container" id="jacket3">
+            <div class="pull-hint" aria-hidden="true">Tarik atau ketuk ↓</div>
+            <div class="inner-content">
+              <h3>3. Langkah-Langkah Pembuatan Surat Penawaran</h3>
+              <p>Untuk membuat surat penawaran yang baik dan profesional, ikuti tahapan berikut:</p>
+
+              <p><strong>Tahap 1: Persiapan Data</strong></p>
+              <ul>
+                <li>Tentukan target penerima surat (nama pemilik usaha atau kepala bagian penjualan).</li>
+                <li>Siapkan daftar produk yang ingin diajak kerja sama serta estimasi harganya.</li>
+              </ul>
+
+              <p><strong>Tahap 2: Penyusunan Struktur Surat</strong></p>
+              <p>Tulis surat secara sistematis dengan urutan berikut:</p>
+              <ol>
+                <li><strong>Kop Surat (Kepala Surat):</strong> Mencantumkan nama organisasi kokurikuler, nama sekolah, alamat, dan kontak yang bisa dihubungi.</li>
+                <li><strong>Nomor, Lampiran, dan Perihal:</strong> Contoh perihal: Penawaran Kerja Sama Pengadaan Produk Kantin Kejujuran.</li>
+                <li><strong>Salam Pembuka:</strong> Menggunakan bahasa yang formal dan sopan (contoh: Dengan hormat,).</li>
+                <li><strong>Alinea Pembuka:</strong> Menjelaskan profil singkat Kantin Kejujuran dan tujuan pembuatan surat.</li>
+                <li><strong>Isi Surat (Inti Penawaran):</strong>
+                  <ul>
+                    <li>Menjelaskan bentuk kerja sama (misalnya sistem titip jual/konsinyasi).</li>
+                    <li>Melampirkan jenis produk yang dibutuhkan atau ditawarkan.</li>
+                    <li>Menjelaskan keunggulan jika bermitra dengan Kantin Kejujuran (misalnya target pasar yang pasti yaitu seluruh warga sekolah).</li>
+                  </ul>
+                </li>
+                <li><strong>Alinea Penutup:</strong> Berisi harapan agar penawaran diterima dan ucapan terima kasih.</li>
+                <li><strong>Tanda Tangan dan Nama Terang:</strong> Ditandatangani oleh Ketua Panitia/Pengelola Kantin Kejujuran dan diketahui oleh Guru Pembimbing atau Kepala Sekolah (berupa cap resmi).</li>
+              </ol>
+
+              <p><strong>Tahap 3: Peninjauan Kembali (Review)</strong></p>
+              <ul>
+                <li>Periksa kembali tata bahasa dan pastikan tidak ada salah ketik (typo).</li>
+                <li>Pastikan angka atau harga yang tercantum sudah akurat.</li>
+              </ul>
+            </div>
+            <div class="jacket-flap left" aria-hidden="true"></div>
+            <div class="jacket-flap right" aria-hidden="true"></div>
+            <div class="zipper-track" aria-hidden="true"></div>
+            <div class="zipper-puller" role="slider" tabindex="0" aria-label="Tarik resleting untuk membuka materi 3" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="zipper-handle"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= IDENTITAS KELOMPOK ================= -->
+    <section class="section section-green" id="identitas" aria-labelledby="h-id">
+      <div class="wrap id-grid">
+        <header class="section-head">
+          <h2 id="h-id">Identitas Kelompok</h2>
+          <p id="tujuanText"></p>
+        </header>
+
+        <div class="id-card">
+          <dl class="id-list">
+            <div><dt>Sekolah</dt><dd data-bind="sekolah">SMAN 4 Malang</dd></div>
+            <div><dt>Kelas</dt><dd data-bind="kelas">X-LTD</dd></div>
+            <div><dt>Mata pelajaran</dt><dd data-bind="mapel">Bahasa Indonesia</dd></div>
+            <div><dt>Kelompok</dt><dd id="idKelompok">-</dd></div>
+          </dl>
+
+          <h3>Anggota kelompok</h3>
+          <ul class="members" id="members"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p><strong>SMAN 4 Malang</strong></p>
+      <p>Hasil proyek kokurikuler mata pelajaran Bahasa Indonesia, kelas X-LTD.</p>
+    </div>
+  </footer>
+
+  <!-- Penampil foto -->
+  <dialog class="lightbox" id="lightbox" aria-label="Penampil foto">
+    <button class="lb-close" id="lbClose" aria-label="Tutup foto">Tutup</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
